@@ -1,0 +1,514 @@
+ body {
+     background-color: rgb(246, 244, 232);
+     overflow-x: hidden;
+ }
+
+
+ #Logo {
+     height: 8%;
+     width: 8%;
+ }
+
+ #intro {
+     margin-top: 200px;
+ }
+
+ #bgcolor {
+     background-color: rgb(247, 232, 202);
+     border: solid 1px;
+     border-color: ivory;
+     box-shadow: 3px slategray;
+ }
+
+ .title-1 {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     padding-bottom: 20px;
+ }
+
+ .def {
+     padding-left: 30%;
+     padding-right: 30%;
+     font-size: small;
+     text-indent: 0%;
+     opacity: 80%;
+ }
+
+ .title-size {
+     font-size: x-large;
+     text-decoration: underline rgb(247, 232, 202);
+     text-transform: uppercase;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .small-text {
+     text-decoration: underline rgb(247, 232, 202);
+ }
+
+ .nav-item:hover {
+     text-decoration-line: underline;
+ }
+
+
+
+ .hero-text h1,
+ .hero-text p {
+     text-transform: uppercase;
+     font-weight: bolder;
+     color: black;
+ }
+
+ .Bg {
+     background-color: rgba(245, 222, 179, 0.758);
+     border: 1px solid transparent;
+     padding: 10px;
+     border-radius: 30px;
+ }
+
+ .element-1 {
+     margin-left: 10%;
+     margin-right: 80%;
+ }
+
+ .element-2 {
+     margin-left: 10%;
+     margin-right: 80%;
+ }
+
+ .element-3 {
+     margin-left: 10%;
+     margin-right: 80%;
+ }
+
+ .element-4 {
+     margin-left: 10%;
+     margin-right: 80%;
+ }
+
+
+
+
+ /* Start of Modal  */
+
+ .modal-content {
+     width: 800px;
+     margin-right: 40%;
+     border-radius: 40px;
+     background-color: rgba(245, 245, 245, 0.787);
+ }
+
+
+ .element-1-modal {
+     margin-left: 10%;
+     margin-right: 70%;
+ }
+
+ .element-2-modal {
+     margin-left: 10%;
+     margin-right: 70%;
+ }
+
+ .element-3-modal {
+     margin-left: 10%;
+     margin-right: 70%;
+ }
+
+ .element-4-modal {
+     margin-left: 10%;
+     margin-right: 70%;
+ }
+
+ /* End of Modal  */
+
+
+
+
+
+ /* Star of Transition of Element */
+
+ .hydrogen {
+     transition: transform 0.3s ease;
+ }
+
+ .hydrogen:hover {
+     transform: translateY(-10px);
+ }
+
+ .helium {
+     transition: transform 0.3s ease;
+ }
+
+ .helium:hover {
+     transform: translateY(-10px);
+ }
+
+ .lithium {
+     transition: transform 0.3s ease;
+ }
+
+ .lithium:hover {
+     transform: translateY(-10px);
+ }
+
+ .Be {
+     transition: transform 0.3s ease;
+ }
+
+ .Be:hover {
+     transform: translateY(-10px);
+ }
+
+ .Boron {
+     transition: transform 0.3s ease;
+ }
+
+ .Boron:hover {
+     transform: translateY(-10px);
+ }
+
+ .Carbon {
+     transition: transform 0.3s ease;
+ }
+
+ .Carbon:hover {
+     transform: translateY(-10px);
+ }
+
+ .Nitrogen {
+     transition: transform 0.3s ease;
+ }
+
+ .Nitrogen:hover {
+     transform: translateY(-10px);
+ }
+
+ .Oxygen {
+     transition: transform 0.3s ease;
+ }
+
+ .Oxygen:hover {
+     transform: translateY(-10px);
+ }
+
+ .Fluorine {
+     transition: transform 0.3s ease;
+ }
+
+ .Fluorine:hover {
+     transform: translateY(-10px);
+ }
+
+ .Neon {
+     transition: transform 0.3s ease;
+ }
+
+ .Neon:hover {
+     transform: translateY(-10px);
+ }
+
+ .Na {
+     transition: transform 0.3s ease;
+ }
+
+ .Na:hover {
+     transform: translateY(-10px);
+ }
+
+ .Mg {
+     transition: transform 0.3s ease;
+ }
+
+ .Mg:hover {
+     transform: translateY(-10px);
+ }
+
+ .Al {
+     transition: transform 0.3s ease;
+ }
+
+ .Al:hover {
+     transform: translateY(-10px);
+ }
+
+ .Si {
+     transition: transform 0.3s ease;
+ }
+
+ .Si:hover {
+     transform: translateY(-10px);
+ }
+
+ .Phosphorus {
+     transition: transform 0.3s ease;
+ }
+
+ .Phosphorus:hover {
+     transform: translateY(-10px);
+ }
+
+ .Sulfur {
+     transition: transform 0.3s ease;
+ }
+
+ .Sulfur:hover {
+     transform: translateY(-10px);
+ }
+
+ .Chlorine {
+     transition: transform 0.3s ease;
+ }
+
+ .Chlorine:hover {
+     transform: translateY(-10px);
+ }
+
+ .Argon {
+     transition: transform 0.3s ease;
+ }
+
+ .Argon:hover {
+     transform: translateY(-10px);
+ }
+
+ .Potassium {
+     transition: transform 0.3s ease;
+ }
+
+ .Potassium:hover {
+     transform: translateY(-10px);
+ }
+
+ .Calcium {
+     transition: transform 0.3s ease;
+ }
+
+ .Calcium:hover {
+     transform: translateY(-10px);
+ }
+
+ /* End of Transition of Element  */
+
+ /* Start of More About Periodic Table  */
+
+ #card {
+     display: flex;
+     margin-left: 25%;
+     width: 800px;
+     border-radius: 20px;
+     overflow: hidden;
+     backdrop-filter: blur(10px);
+     background-color: white;
+     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+     transition: 0.4s;
+     cursor: pointer;
+ }
+
+ #card:hover {
+     transform: translateY(-8px) scale(1.02);
+ }
+
+ /* Image */
+ .image-box {
+     position: relative;
+     width: 300px;
+ }
+
+ .image-box img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ /* Gradient overlay */
+ .image-box::after {
+     content: "";
+     position: absolute;
+     inset: 0;
+     background: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent);
+ }
+
+ /* Content */
+ .content {
+     padding: 25px;
+     flex: 1;
+     position: relative;
+ }
+
+ .content h2 {
+     color: #1b5e20;
+     margin-bottom: 10px;
+ }
+
+ .content p {
+     color: #333;
+ }
+
+ /* Benefits container */
+ .benefits {
+     margin-top: 15px;
+     max-height: 0;
+     opacity: 0;
+     overflow: hidden;
+     transform: translateY(20px);
+     transition: all 0.5s ease;
+ }
+
+ /* WasteManagement container */
+ .Wastemanage {
+     margin-top: 15px;
+     max-height: 0;
+     opacity: 0;
+     overflow: hidden;
+     transform: translateY(20px);
+     transition: all 0.5s ease;
+ }
+
+ /* Importance of GreenSpace */
+ .Importance {
+     margin-top: 15px;
+     max-height: 0;
+     opacity: 0;
+     overflow: hidden;
+     transform: translateY(20px);
+     transition: all 0.5s ease;
+ }
+
+ /* Active state */
+ #card.active .benefits,
+ #card:hover .benefits {
+     max-height: 300px;
+     opacity: 1;
+     transform: translateY(0);
+ }
+
+ #card.active .Wastemanage,
+ #card:hover .Wastemanage {
+     max-height: 300px;
+     opacity: 1;
+     transform: translateY(0);
+ }
+
+ #card.active .Importance,
+ #card:hover .Importance {
+     max-height: 300px;
+     opacity: 1;
+     transform: translateY(0);
+ }
+
+ /* Start Type of Groups  */
+
+ .challenge {
+     background: white;
+     padding: 10px;
+     margin: 8px 0;
+     border-left: 5px solid rgb(35, 150, 56);
+     border-radius: 5px;
+ }
+
+ #challenges {
+     padding-left: 350px;
+     padding-right: 350px;
+ }
+
+ /* End Type of Groups  */
+
+
+ /* Members  */
+
+ #member {
+     text-align: center;
+     margin-bottom: 30px;
+ }
+
+ #mbm {
+     height: 200px;
+ }
+
+ #bpz {
+     height: 200px;
+ }
+
+ #mthh {
+     height: 200px;
+ }
+
+ #hnyl {
+     height: 200px;
+ }
+
+ /* end of members  */
+
+ /* Start of Footer */
+ .footer {
+     background: rgb(247, 232, 202);
+     padding: 30px;
+     border-top: 1px solid #ddd;
+
+ }
+
+ .footer-grid {
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     gap: 20px;
+ }
+
+ .footer h4 {
+     margin-bottom: 10px;
+ }
+
+ .footer a {
+     display: block;
+     text-decoration: none;
+     color: rgba(0, 0, 0, 0.685);
+     margin-bottom: 5px;
+ }
+
+ .bottom-bar {
+     text-align: center;
+     margin-top: 20px;
+     font-size: 14px;
+     color: #777;
+ }
+
+ .footer a:hover {
+     color: green;
+     text-transform: uppercase;
+     /* change to any color you want */
+ }
+
+ /* End of footer  */
+
+ * {
+     box-sizing: border-box;
+ }
+
+ /* Start of social icon  */
+ .social-icons {
+     text-align: center;
+     margin-top: 20px;
+ }
+
+ .social-icons a {
+     display: inline-block;
+     width: 40px;
+     height: 40px;
+     line-height: 40px;
+     margin: 5px;
+
+     border: 1px solid #aaa;
+     border-radius: 50%;
+     color: #555;
+     text-align: center;
+ }
+
+ .social-icons a:hover {
+     color: white;
+     background: wheat;
+     border-color: ivory;
+ }
+
+
+ /* end of social icons  */
+
+ .animation :hover {
+     color: rgb(3, 98, 3)
+ }

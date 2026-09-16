@@ -1,0 +1,611 @@
+    body {
+        background-color: rgb(246, 244, 232);
+        overflow-x: hidden;
+    }
+
+
+    #Logo {
+        height: 8%;
+        width: 8%;
+    }
+
+    #intro {
+        margin-top: 200px;
+    }
+
+    #bgcolor {
+        background: rgb(247, 232, 202);
+        border: solid 1px;
+        border-color: ivory;
+        box-shadow: 3px slategray;
+    }
+
+    .title-size {
+        font-size: x-large;
+        text-decoration: underline rgb(247, 232, 202);
+        text-transform: uppercase;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .small-text {
+        text-decoration: underline rgb(247, 232, 202);
+    }
+
+    .title-1 {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #title1 {
+        color: blue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .title-2 {
+
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0%;
+    }
+
+    .element-1 {
+        margin-left: 10%;
+        margin-right: 70%;
+    }
+
+    .element-2 {
+        margin-left: 10%;
+        margin-right: 70%;
+    }
+
+    .element-3 {
+        margin-left: 10%;
+        margin-right: 70%;
+    }
+
+    .element-4 {
+        margin-left: 10%;
+        margin-right: 70%;
+    }
+
+
+    /* Start of Modal  */
+
+    .modal-content {
+        width: 800px;
+        margin-right: 40%;
+        border-radius: 40px;
+        background-color: rgba(245, 245, 245, 0.787);
+    }
+
+    /* End of Modal  */
+
+
+
+
+
+    /* Star of Transition of Element */
+
+    .hydrogen {
+        transition: transform 0.3s ease;
+    }
+
+    .hydrogen:hover {
+        transform: translateY(-10px);
+    }
+
+    .helium {
+        transition: transform 0.3s ease;
+    }
+
+    .helium:hover {
+        transform: translateY(-10px);
+    }
+
+    .lithium {
+        transition: transform 0.3s ease;
+    }
+
+    .lithium:hover {
+        transform: translateY(-10px);
+    }
+
+    .Be {
+        transition: transform 0.3s ease;
+    }
+
+    .Be:hover {
+        transform: translateY(-10px);
+    }
+
+    .Boron {
+        transition: transform 0.3s ease;
+    }
+
+    .Boron:hover {
+        transform: translateY(-10px);
+    }
+
+    .Carbon {
+        transition: transform 0.3s ease;
+    }
+
+    .Carbon:hover {
+        transform: translateY(-10px);
+    }
+
+    .Nitrogen {
+        transition: transform 0.3s ease;
+    }
+
+    .Nitrogen:hover {
+        transform: translateY(-10px);
+    }
+
+    .Oxygen {
+        transition: transform 0.3s ease;
+    }
+
+    .Oxygen:hover {
+        transform: translateY(-10px);
+    }
+
+    .Fluorine {
+        transition: transform 0.3s ease;
+    }
+
+    .Fluorine:hover {
+        transform: translateY(-10px);
+    }
+
+    .Neon {
+        transition: transform 0.3s ease;
+    }
+
+    .Neon:hover {
+        transform: translateY(-10px);
+    }
+
+    .Na {
+        transition: transform 0.3s ease;
+    }
+
+    .Na:hover {
+        transform: translateY(-10px);
+    }
+
+    .Mg {
+        transition: transform 0.3s ease;
+    }
+
+    .Mg:hover {
+        transform: translateY(-10px);
+    }
+
+    .Al {
+        transition: transform 0.3s ease;
+    }
+
+    .Al:hover {
+        transform: translateY(-10px);
+    }
+
+    .Si {
+        transition: transform 0.3s ease;
+    }
+
+    .Si:hover {
+        transform: translateY(-10px);
+    }
+
+    .Phosphorus {
+        transition: transform 0.3s ease;
+    }
+
+    .Phosphorus:hover {
+        transform: translateY(-10px);
+    }
+
+    .Sulfur {
+        transition: transform 0.3s ease;
+    }
+
+    .Sulfur:hover {
+        transform: translateY(-10px);
+    }
+
+    .Chlorine {
+        transition: transform 0.3s ease;
+    }
+
+    .Chlorine:hover {
+        transform: translateY(-10px);
+    }
+
+    .Argon {
+        transition: transform 0.3s ease;
+    }
+
+    .Argon:hover {
+        transform: translateY(-10px);
+    }
+
+    .Potassium {
+        transition: transform 0.3s ease;
+    }
+
+    .Potassium:hover {
+        transform: translateY(-10px);
+    }
+
+    .Calcium {
+        transition: transform 0.3s ease;
+    }
+
+    .Calcium:hover {
+        transform: translateY(-10px);
+    }
+
+    /* End of Transition of Element  */
+
+    /* End of Modal  */
+
+    /* Basic Info  */
+
+    #hydroimg {
+        width: 190px;
+        height: 190px;
+        object-fit: cover;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        transition: transform 0.3 ease;
+    }
+
+    #hydroimg:hover {
+        transform: translateY(-10px);
+    }
+
+
+
+    .info1 {
+        border-radius: 30px;
+        padding: 35px;
+        background-color: white;
+        position: relative;
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease;
+    }
+
+    .info1:hover {
+        transform: translateY(-10px);
+        box-shadow: 2px 2px 2px 2px gray;
+    }
+
+    .hydrogen {
+        margin-top: 100px;
+    }
+
+    /* End of basic info  */
+
+
+
+    /* Start of Properties  */
+
+    #title4 {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: blue;
+    }
+
+    .Importance {
+        display: flex;
+        padding-left: 20px;
+        margin-top: 15px;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transform: translateY(20px);
+        transition: all 0.5s ease;
+    }
+
+    #card {
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        border-radius: 20px;
+        width: 580px;
+        overflow: hidden;
+        backdrop-filter: blur(10px);
+        background-color: white;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        transition: 0.4s;
+        cursor: pointer;
+
+    }
+
+    #card:hover {
+        transform: translateY(-8px) scale(1.02);
+    }
+
+    /* Content */
+    .content {
+        padding: 25px;
+        flex: 1;
+        position: relative;
+    }
+
+    .content h2 {
+        color: #1b5e20;
+        margin-bottom: 10px;
+    }
+
+    .content p {
+        color: #333;
+    }
+
+    #card.active .Importance,
+    #card:hover .Importance {
+        max-height: 300px;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* 2nd Properties  */
+
+    #card1 {
+        display: flex;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        border-radius: 20px;
+        width: 580px;
+        overflow: hidden;
+        backdrop-filter: blur(10px);
+        background-color: white;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        transition: 0.4s;
+        cursor: pointer;
+
+    }
+
+    #card1:hover {
+        transform: translateY(-8px) scale(1.02);
+    }
+
+    #card1.active .Importance,
+    #card1:hover .Importance {
+        max-height: 300px;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .slogan {
+        text-align: center;
+    }
+
+    /* End of Properties  */
+
+    /* Icon  */
+
+    .icon-h {
+        width: 75px;
+        height: 75px;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        margin-left: 220px;
+    }
+
+    /* Start Of Discovery  */
+
+    .title-b {
+        text-align: center;
+        font-size: 38px;
+        color: #2e7d32;
+        margin-bottom: 50px;
+    }
+
+    .box-b {
+        max-width: 1000px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card-b {
+        background: white;
+        border-radius: 20px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+        transition: 0.4s;
+    }
+
+    .card-b:hover {
+        transform: scale(1.02);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-b img {
+        width: 300px;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .content-b {
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+
+    .content-b h2 {
+        color: #2e7d32;
+        margin-bottom: 12px;
+        font-size: 28px;
+    }
+
+    .content-b p {
+        color: #555;
+        line-height: 1.8;
+        font-size: 16px;
+    }
+
+    #name {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: blue;
+    }
+
+
+    /* Useages  */
+
+
+    .cards-homeg {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 0 8% 80px;
+        margin-top: 30px;
+
+    }
+
+    .card-hg {
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        transition: 0.4s;
+    }
+
+    .card-hg:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-hg img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .card-content-hg {
+        padding: 25px;
+
+    }
+
+    .card-content-hg h3 {
+        margin-bottom: 10px;
+        color: #2d6a4f;
+    }
+
+
+
+    /* Start of Insterting Facts  */
+
+    /* Container styling */
+    .testimonial-slider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        padding: 40px 20px;
+    }
+
+    /* Card layout & drop shadow */
+    .testimonial-card {
+        position: relative;
+        width: 500px;
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 40px 40px 30px 40px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        margin-top: 40px;
+        /* Space for overflowing avatar */
+    }
+
+    /* Overlapping Avatar Effect */
+    .avatar-wrapper {
+        position: absolute;
+        top: -40px;
+        left: 30px;
+    }
+
+    .avatar {
+
+        width: 400px;
+        height: 100px;
+        border-radius: 10px;
+        object-fit: cover;
+        border: 4px solid #ffffff;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Typography */
+    .name {
+        color: #e0997d;
+        /* Highlight color */
+        font-size: 1.4rem;
+        margin: 20px 0 2px 0;
+    }
+
+    .role {
+        color: #888888;
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+
+    .quote {
+        color: #555555;
+        line-height: 1.6;
+        font-size: 1rem;
+    }
+
+
+
+    /* End of Insteresting Facts  */
+
+
+
+
+
+    /* Start of Footer */
+    .footer {
+        background: rgb(247, 232, 202);
+        padding: 30px;
+        border-top: 1px solid #ddd;
+
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+    }
+
+    .footer h4 {
+        margin-bottom: 10px;
+    }
+
+    .footer a {
+        display: block;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.685);
+        margin-bottom: 5px;
+    }
+
+    .bottom-bar {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px;
+        color: #777;
+    }
+
+    .footer a:hover {
+        color: green;
+        text-transform: uppercase;
+        /* change to any color you want */
+    }
+
+    /* End of footer  */
